@@ -37,7 +37,7 @@ const Services = () => {
                             <h4 className="text-2xl my-3 leading-8  font-medium mb-2.5 text-[#dc3444] text-shadow">طراحی سایت</h4>
                             <p className="opacity-70"> ما به شما وب سایتی مدرن و کاربرپسند ارائه می‌دهیم   </p>
                             <p className="mt-2 text-left">
-                                <Link href="/" >ادامه مطلب</Link>
+                                <Link href="#" >ادامه مطلب</Link>
                             </p>
 
                         </div>
@@ -52,7 +52,7 @@ const Services = () => {
                             <h4 className="text-2xl my-3  leading-8  font-medium mb-2.5 text-[#dc3444] text-shadow">تبلیغات</h4>
                             <p className="opacity-70">ایجاد تجربه‌های بی‌نظیر شما با طراحی‌های خلاقانه و جذاب</p>
                             <p className="mt-2 text-left">
-                                <Link href="/" >ادامه مطلب</Link>
+                                <Link href="#" >ادامه مطلب</Link>
                             </p>
                         </div>
                     </div>
@@ -66,7 +66,7 @@ const Services = () => {
                             <h4 className="text-2xl my-3  leading-8  font-medium mb-2.5 text-[#dc3444] text-shadow">سئو</h4>
                             <p className="opacity-70">به شما کمک می‌کند تا در دنیای دیجیتال بیشتر دیده شوید  </p>
                             <p className="mt-2 text-left">
-                                <Link href="/" >ادامه مطلب</Link>
+                                <Link href="#" >ادامه مطلب</Link>
                             </p>
                         </div>
                     </div>

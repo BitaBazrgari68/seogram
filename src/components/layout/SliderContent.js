@@ -54,12 +54,12 @@ const SliderContent = () => {
                     </p>
                     <div className="flex flex-col mt-10 gap-7">
                         <span className="flex flex-col">
-                            <Link href="/" className="font-medium text-xl leading-7 opacity-100 text-center">
+                            <Link href="#" className="font-medium text-xl leading-7 opacity-100 text-center">
                                 تماس باما : (0123) 456 – 789
                             </Link>
                             <span className="opacity-70 text-center">برای هر سوال یا نگرانی</span>
                         </span>
-                        <Link href="/" className="w-fit text-white leading-7 font-medium px-7 py-3 bg-[#dc3444] rounded-3xl mx-auto">
+                        <Link href="#" className="w-fit text-white leading-7 font-medium px-7 py-3 bg-[#dc3444] rounded-3xl mx-auto">
                             Get Started Now
                         </Link>
                     </div>

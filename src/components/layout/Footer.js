@@ -30,13 +30,13 @@ export default function Footer() {
               این متن درباره ی خدمات ماست این متن درباره ی خدمات ماست این متن درباره ی خدمات ماست
             </p>
             <div className='flex gap-3 flex-row-reverse '>
-              <Link href="/" className='social hover:bg-[#dc3444] '>
+              <Link href="#" className='social hover:bg-[#dc3444] '>
                 <AiOutlineInstagram />
               </Link>
-              <Link href="/" className='social hover:bg-[#dc3444] '>
+              <Link href="#" className='social hover:bg-[#dc3444] '>
                 <RiTelegramLine />
               </Link>
-              <Link href="/" className='social hover:bg-[#dc3444] '>
+              <Link href="#" className='social hover:bg-[#dc3444] '>
                 <SiWhatsapp />
               </Link>
             </div>
@@ -47,19 +47,19 @@ export default function Footer() {
             <h2 className={`py-2 text-2xl drop-shadow-[2px_2px_3px_rgba(0,0,0,0.3)] border-bottom  text-[#dc3444] text-right border-h3-footer`}>دسترسی سریع</h2>
             <div className={`flex gap-2 flex-row-reverse `}>
               <FaAngleLeft className='text-[#dc3444]' />
-              <Link className='hover:pr-1 transition-all ease-linear duration-300 ' href="/"> صفحه اصلی</Link>
+              <Link className='hover:pr-1 transition-all ease-linear duration-300 ' href="#"> صفحه اصلی</Link>
             </div>
             <div className={`flex gap-2 flex-row-reverse  `}>
               <FaAngleLeft className='text-[#dc3444]' />
-              <Link className='hover:pr-1 transition-all ease-linear duration-300 ' href="/">درباره ما</Link>
+              <Link className='hover:pr-1 transition-all ease-linear duration-300 ' href="#">درباره ما</Link>
             </div>
             <div className={`flex gap-2 flex-row-reverse `}>
               <FaAngleLeft className='text-[#dc3444]' />
-              <Link className='hover:pr-1 transition-all ease-linear duration-300 ' href="/">خدمات </Link>
+              <Link className='hover:pr-1 transition-all ease-linear duration-300 ' href="#">خدمات </Link>
             </div>
             <div className={`flex gap-2 flex-row-reverse `}>
               <FaAngleLeft className='text-[#dc3444]' />
-              <Link className='hover:pr-1 transition-all ease-linear duration-300 ' href="/"> وبلاگ</Link>
+              <Link className='hover:pr-1 transition-all ease-linear duration-300 ' href="#"> وبلاگ</Link>
             </div>
           </div>
           <div className='flex flex-col gap-5 text-black' data-aos="fade-down"
