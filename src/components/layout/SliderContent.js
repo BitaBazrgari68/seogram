@@ -1,5 +1,6 @@
 "use client"; // علامت‌گذاری کامپوننت به عنوان کلاینت  
 import Image from "next/image";
+import Link from 'next/link'
 import shape from '../../../public/images/shape.svg'
 import about1 from '../../../public/images/about1.png'
 import about2 from '../../../public/images/about2.png'
@@ -53,14 +54,14 @@ const SliderContent = () => {
                     </p>
                     <div className="flex flex-col mt-10 gap-7">
                         <span className="flex flex-col">
-                            <a href="/" className="font-medium text-xl leading-7 opacity-100 text-center">
+                            <Link href="/" className="font-medium text-xl leading-7 opacity-100 text-center">
                                 تماس باما : (0123) 456 – 789
-                            </a>
+                            </Link>
                             <span className="opacity-70 text-center">برای هر سوال یا نگرانی</span>
                         </span>
-                        <a href="/" className="w-fit text-white leading-7 font-medium px-7 py-3 bg-[#dc3444] rounded-3xl mx-auto">
+                        <Link href="/" className="w-fit text-white leading-7 font-medium px-7 py-3 bg-[#dc3444] rounded-3xl mx-auto">
                             Get Started Now
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>

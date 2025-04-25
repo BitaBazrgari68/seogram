@@ -82,7 +82,7 @@ export default function Header() {
                   <div className={`flex space-x-4  flex-row `}>
                     {navigation.map((item) => (
 
-                      <a
+                      <Link
                         key={item.name}
                         href={item.href}
                         aria-current={item.current ? 'page' : undefined}
@@ -95,7 +95,7 @@ export default function Header() {
                         {item.name}
                         {/* <span className="w-0 h-[2px] bg-white absolute left-0 bottom-0 opacity-0  invisible 
                     rounded-md transition-all ease-out duration-700 group-hover:opacity-100 group-hover:visible group-hover:w-16"></span> */}
-                      </a>
+                      </Link>
                     ))}
                   </div>
                 </div>

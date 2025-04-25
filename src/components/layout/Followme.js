@@ -1,6 +1,6 @@
 import qrcode from "../../../public/images/instagramQR.png"
 import Image from "next/image";
-
+import Link from 'next/link'
 const Followme = () => {
     return (
         <div>
@@ -13,7 +13,7 @@ const Followme = () => {
                     اینستاگرام  سئوگرام  یادت نره
                 </div>
                 <div className="ml-5">
-                    <a className="group rounded-b-full bg-white dark:bg-cnDarkBlue-20 transition-colors
+                    <Link className="group rounded-b-full bg-white dark:bg-cnDarkBlue-20 transition-colors
              w-40 h-40 lg:w-48 lg:h-48 flex flex-col justify-center items-center dir-ltr" target="_blank" href="https://www.instagram.com/meta.sheed2024">
                         <Image src={qrcode}
                         alt="qrcode"
@@ -24,7 +24,7 @@ const Followme = () => {
 
                         <p className=" text-xs lg:text-sm transition-all group-hover:text-cnBlue-15">@META.SHEED2024
                         </p>
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div>
