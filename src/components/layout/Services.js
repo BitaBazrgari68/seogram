@@ -8,9 +8,13 @@ import { FcAdvertising } from "react-icons/fc";
 import { IoPulseOutline } from "react-icons/io5";
 import 'aos/dist/aos.css';
 import AOS from 'aos';
-AOS.init();
+import { useEffect } from "react";
 
 const Services = () => {
+    useEffect(() => {
+        AOS.init();
+        
+    }, []);
     return (
         <div className="pt-20 ">
 

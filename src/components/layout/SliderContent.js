@@ -9,11 +9,15 @@ import shape2 from '../../../public/images/shape2.svg'
 import shape3 from '../../../public/images/shape3.svg'
 import 'aos/dist/aos.css'; 
 import AOS from 'aos';  
+import { useEffect } from "react";
 
  
-AOS.init({once:true}); 
+
 const SliderContent = () => {
-   
+   useEffect(() => {
+    
+    AOS.init({once:true}); 
+   }, []);
     return (
         <div className="flex mt-5 pl-10 ">
             <div className="flex-1 flex gap-8 relative sider-content-right" data-aos="fade-right" data-aos-easing="ease-out-cubic"

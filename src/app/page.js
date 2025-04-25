@@ -8,7 +8,7 @@ import Followme from "@/components/layout/Followme";
 export default function Home() {
   return (
     <main >
-      <Header  />
+      <Header/>
       <SliderContent/>
       <Services/>
       <Slider/>
